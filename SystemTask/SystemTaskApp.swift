@@ -13,6 +13,9 @@ struct SystemTaskApp: App {
 
     var body: some Scene {
         WindowGroup {
+            
+//            HomeListViewController(nibName: "HomeListViewController", bundle: nil)
+            
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
