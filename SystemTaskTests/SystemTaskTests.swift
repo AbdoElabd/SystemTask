@@ -6,6 +6,8 @@
 //
 
 import XCTest
+@testable import SystemTask
+
 
 final class SystemTaskTests: XCTestCase {
 
@@ -18,6 +20,7 @@ final class SystemTaskTests: XCTestCase {
     }
 
     func testExample() throws {
+        
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         // Any test you write for XCTest can be annotated as throws and async.
@@ -30,6 +33,17 @@ final class SystemTaskTests: XCTestCase {
         measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    func testNumberOfMovies() {
+        
+    }
+    
+    func testMovieAtIndex() {
+        let viewModel = HomeViewModel()
+        let movieViewModel = viewModel.repoAtIndex(0)
+        XCTAssertEqual(movieViewModel.name, "Name")
+
     }
 
 }

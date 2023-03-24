@@ -7,8 +7,8 @@
 
 import Foundation
 
-class MovieAPI {
-    static let shared = MovieAPI()
+class RepoAPI {
+    static let shared = RepoAPI()
     private init() {}
     
     func fetchRepos(completion: @escaping ([RepoModel]) -> Void) {

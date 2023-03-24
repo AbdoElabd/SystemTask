@@ -8,7 +8,7 @@
 import Foundation
 
 struct RepoViewModel {
-    fileprivate let repo: RepoModel
+    public let repo: RepoModel
     var exPandable : Bool =  false
     var name: String {
         return repo.name ?? ""

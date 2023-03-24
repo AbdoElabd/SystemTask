@@ -8,12 +8,12 @@
 import Foundation
 
 class HomeViewModel {
-    //    let presentViewController = PreseistantController.shared
+    
     private var repos: [RepoModel] = []
     var numberOfRepos: Int {
         return repos.count
     }
-    func fetchReposFromCoreData(completion: @escaping () -> Void)  {
+    func fetchReposFromCoreData(completion: @escaping () -> Void )  {
         repos = []
         let reposCore : [RepoCore] = PreseistantController().fetchRepos() ?? []
         if reposCore.count != 0{
@@ -25,7 +25,7 @@ class HomeViewModel {
         }
     }
     func fetchRepos(completion: @escaping () -> Void) {
-        MovieAPI.shared.fetchRepos { [weak self] repos in
+        RepoAPI.shared.fetchRepos { [weak self] repos in
             self?.repos = repos
             PreseistantController().saveUserData(repos)
             completion()

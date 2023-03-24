@@ -7,16 +7,26 @@
 
 import XCTest
 
+@testable import SystemTask
+
+
 class MovieListViewModelTests: XCTestCase {
-    func testNumberOfMovies() {
-        let viewModel = HomeViewModel() 
-        XCTAssertEqual(viewModel.numberOfMovies, 3)
+    
+    func testNumberOfRepos() {
+        let viewModel = HomeViewModel()
+        XCTAssertEqual(viewModel.numberOfRepos, 0)
+        viewModel.fetchRepos {
+            XCTAssertEqual(viewModel.numberOfRepos, 30)
+        }
     }
     
     func testMovieAtIndex() {
         let viewModel = HomeViewModel()
-        let movieViewModel = viewModel.movieAtIndex(0)
-        XCTAssertEqual(movieViewModel.title, "The Godfather")
-        XCTAssertEqual(movieViewModel.releaseYear, "1972")
+        viewModel.fetchRepos {
+            let movieViewModel = viewModel.repoAtIndex(0)
+            XCTAssertEqual(movieViewModel.name, "Name")
+        }
+        
+
     }
 }

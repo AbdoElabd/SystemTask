@@ -14,6 +14,32 @@
 		569B612829CC47C800D4D0D0 /* ReposCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 569B612629CC47C800D4D0D0 /* ReposCore.xcdatamodeld */; };
 		569B612A29CC568E00D4D0D0 /* PresistantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612929CC568E00D4D0D0 /* PresistantController.swift */; };
 		569B612C29CCC2D100D4D0D0 /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612B29CCC2D100D4D0D0 /* RepoViewModel.swift */; };
+		569B612D29CDC15B00D4D0D0 /* ReboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5B029C9E352003072A8 /* ReboModel.swift */; };
+		569B612E29CDC16000D4D0D0 /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612B29CCC2D100D4D0D0 /* RepoViewModel.swift */; };
+		569B612F29CDC35000D4D0D0 /* ReposCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 569B612629CC47C800D4D0D0 /* ReposCore.xcdatamodeld */; };
+		569B613029CDC38100D4D0D0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5BA29CA4F6B003072A8 /* APIManager.swift */; };
+		569B613129CDC38500D4D0D0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56829C99DE9003072A8 /* Persistence.swift */; };
+		569B613229CDC38900D4D0D0 /* SystemTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56629C99DE9003072A8 /* SystemTaskApp.swift */; };
+		569B613329CDC39100D4D0D0 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B611E29CC2FEB00D4D0D0 /* RepoTableViewCell.swift */; };
+		569B613429CDC39500D4D0D0 /* CommitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B611C29CC2FD700D4D0D0 /* CommitTableViewCell.swift */; };
+		569B613529CDC39A00D4D0D0 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5A929C9C9F5003072A8 /* HomeListViewController.swift */; };
+		569B613629CDC3F000D4D0D0 /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612329CC377100D4D0D0 /* RepoViewController.swift */; };
+		569B613729CDC7E100D4D0D0 /* ReboModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5B029C9E352003072A8 /* ReboModel.swift */; };
+		569B613829CDC7EA00D4D0D0 /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612B29CCC2D100D4D0D0 /* RepoViewModel.swift */; };
+		569B613929CDC80C00D4D0D0 /* PresistantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612929CC568E00D4D0D0 /* PresistantController.swift */; };
+		569B613A29CDC80D00D4D0D0 /* PresistantController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612929CC568E00D4D0D0 /* PresistantController.swift */; };
+		569B613B29CDC81500D4D0D0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5BA29CA4F6B003072A8 /* APIManager.swift */; };
+		569B613C29CDC84800D4D0D0 /* ReposCore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 569B612629CC47C800D4D0D0 /* ReposCore.xcdatamodeld */; };
+		569B613D29CDC86900D4D0D0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56829C99DE9003072A8 /* Persistence.swift */; };
+		569B613E29CDC8A800D4D0D0 /* SystemTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56629C99DE9003072A8 /* SystemTaskApp.swift */; };
+		569B613F29CDC8AE00D4D0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56D29C99DE9003072A8 /* ContentView.swift */; };
+		569B614029CDC8AE00D4D0D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56D29C99DE9003072A8 /* ContentView.swift */; };
+		569B614129CDC91C00D4D0D0 /* HomeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5A929C9C9F5003072A8 /* HomeListViewController.swift */; };
+		569B614229CDC93800D4D0D0 /* RepoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B612329CC377100D4D0D0 /* RepoViewController.swift */; };
+		569B614329CDC94200D4D0D0 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B611E29CC2FEB00D4D0D0 /* RepoTableViewCell.swift */; };
+		569B614429CDC94500D4D0D0 /* CommitTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569B611C29CC2FD700D4D0D0 /* CommitTableViewCell.swift */; };
+		569B614529CDC95200D4D0D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5A729C9C8C4003072A8 /* Home.swift */; };
+		569B614629CDC95300D4D0D0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A5A729C9C8C4003072A8 /* Home.swift */; };
 		56C8A56729C99DE9003072A8 /* SystemTaskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56629C99DE9003072A8 /* SystemTaskApp.swift */; };
 		56C8A56929C99DE9003072A8 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56829C99DE9003072A8 /* Persistence.swift */; };
 		56C8A56C29C99DE9003072A8 /* SystemTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56C8A56A29C99DE9003072A8 /* SystemTask.xcdatamodeld */; };
@@ -409,9 +435,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569B612E29CDC16000D4D0D0 /* RepoViewModel.swift in Sources */,
+				569B613129CDC38500D4D0D0 /* Persistence.swift in Sources */,
 				56C8A57E29C99DEB003072A8 /* SystemTaskTests.swift in Sources */,
+				569B613329CDC39100D4D0D0 /* RepoTableViewCell.swift in Sources */,
 				56C8A5B429CA376D003072A8 /* HomeViewModel.swift in Sources */,
+				569B613629CDC3F000D4D0D0 /* RepoViewController.swift in Sources */,
 				56C8A5B329CA3727003072A8 /* HomeViewModelTests.swift in Sources */,
+				569B613229CDC38900D4D0D0 /* SystemTaskApp.swift in Sources */,
+				569B613529CDC39A00D4D0D0 /* HomeListViewController.swift in Sources */,
+				569B613429CDC39500D4D0D0 /* CommitTableViewCell.swift in Sources */,
+				569B613929CDC80C00D4D0D0 /* PresistantController.swift in Sources */,
+				569B613F29CDC8AE00D4D0D0 /* ContentView.swift in Sources */,
+				569B612F29CDC35000D4D0D0 /* ReposCore.xcdatamodeld in Sources */,
+				569B612D29CDC15B00D4D0D0 /* ReboModel.swift in Sources */,
+				569B614529CDC95200D4D0D0 /* Home.swift in Sources */,
+				569B613029CDC38100D4D0D0 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +458,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569B613D29CDC86900D4D0D0 /* Persistence.swift in Sources */,
+				569B614029CDC8AE00D4D0D0 /* ContentView.swift in Sources */,
+				569B613C29CDC84800D4D0D0 /* ReposCore.xcdatamodeld in Sources */,
+				569B614329CDC94200D4D0D0 /* RepoTableViewCell.swift in Sources */,
+				569B613829CDC7EA00D4D0D0 /* RepoViewModel.swift in Sources */,
+				569B613E29CDC8A800D4D0D0 /* SystemTaskApp.swift in Sources */,
+				569B614229CDC93800D4D0D0 /* RepoViewController.swift in Sources */,
 				56C8A58A29C99DEB003072A8 /* SystemTaskUITestsLaunchTests.swift in Sources */,
+				569B613A29CDC80D00D4D0D0 /* PresistantController.swift in Sources */,
+				569B614129CDC91C00D4D0D0 /* HomeListViewController.swift in Sources */,
+				569B614429CDC94500D4D0D0 /* CommitTableViewCell.swift in Sources */,
 				56C8A5B529CA3770003072A8 /* HomeViewModel.swift in Sources */,
 				56C8A58829C99DEB003072A8 /* SystemTaskUITests.swift in Sources */,
+				569B613729CDC7E100D4D0D0 /* ReboModel.swift in Sources */,
+				569B614629CDC95300D4D0D0 /* Home.swift in Sources */,
+				569B613B29CDC81500D4D0D0 /* APIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
