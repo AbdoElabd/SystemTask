@@ -29,6 +29,6 @@ class RepoAPI {
     }
 }
 
-struct MovieResult: Decodable {
+struct RepoResult: Decodable {
     let results: [RepoModel]
 }

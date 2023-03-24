@@ -20,7 +20,7 @@ class MovieListViewModelTests: XCTestCase {
         }
     }
     
-    func testMovieAtIndex() {
+    func testRepoAtIndex() {
         let viewModel = HomeViewModel()
         viewModel.fetchRepos {
             let movieViewModel = viewModel.repoAtIndex(0)

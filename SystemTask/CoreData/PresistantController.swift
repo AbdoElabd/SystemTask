@@ -24,7 +24,7 @@ class PreseistantController {
         let context = container.viewContext
        
         //remove previous data
-        var reposCore : [RepoCore] = self.fetchRepos() ?? []
+        let reposCore : [RepoCore] = self.fetchRepos() ?? []
         for repo in reposCore{
             context.delete(repo)
         }
